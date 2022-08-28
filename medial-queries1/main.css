@@ -1,7 +1,7 @@
 body {
   background: blanchedalmond;
 }
-
+/* border to easily see divs*/
 * {
   border: 1px solid black;
 }
@@ -13,12 +13,12 @@ body {
   text-align: center;
   justify-content: space-between;
 }
-
+/*making the a div span across entire page while b and c are in two columns beneath it*/
 .a {
   flex-grow: 1;
   width: 100%;
 }
-
+/*making the b div larger than a and c*/
 .b{
   flex-grow: 3;
   min-height: 30vh;
@@ -28,6 +28,7 @@ body {
   flex-grow: 1;
 }
 
+/* media quiery rules */
 @media (min-width: 600px) {
   .container {
     flex-direction: row;

@@ -1,3 +1,66 @@
 body {
   background: papayawhip;
 }
+
+* {
+  border: 3px solid purple;
+}
+
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+/*making the a div span across entire page while b and c are in two columns beneath it*/
+.a {
+  flex-grow: 1;
+  width: 100%;
+}
+/*making the b div larger than a and c*/
+.b{
+  flex-grow: 3;
+}
+
+.c {
+  flex-grow: 1;
+}
+
+.d {
+  flex-grow: 1;
+}
+
+.e {
+  flex-grow: 1;
+}
+
+.f {
+  flex-grow: 1;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a{
+    flex-direction: row;
+  }
+  .b {
+    flex-direction: row;
+    width: 100%;
+  }
+  .c {
+    flex-direction: row;
+  }
+  .d {
+    flex-direction: row;
+  }
+  .e {
+    flex-direction: row;
+  }
+  .f {
+    
+  }
+}

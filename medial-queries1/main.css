@@ -34,14 +34,4 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .a{
-    flex-direction: row;
-  }
-  .b {
-    flex-direction: row;
-  }
-  .c {
-    flex-direction: row;
-    
-  }
 }

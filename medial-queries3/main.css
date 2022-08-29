@@ -51,9 +51,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .a {
-    min-height: 10%;
-  }
+ 
   .section {
     flex-wrap: wrap;
     width: 60%;
@@ -63,5 +61,8 @@ body {
     display: inline-flex;
     width: 100%;
     min-height: 49%;
+  }
+  .h {
+    width: 30%;
   }
 }
